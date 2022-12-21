@@ -9,19 +9,37 @@
     <title>Rock-paper-scissors</title>
   </head>
   <body>
-    <h1>GAME</h1>
-    <div class="score">
-      <div>
-        PlayerName<br />
-        playerScore
+    <div class="wrapper">
+      <div class="title"><h1></h1>Rock-paper-scissors</h1>
+      <button id='menu'>Menu</button></div>
+      <div class="score">
+        <table>
+          <caption>
+            Score
+          </caption>
+          <thead>
+            <tr>
+              <th>Wins</th>
+              <th>Ties</th>
+              <th>Loses</th>
+            </tr>
+          </thead>
+          <tr>
+            <td id="playerWin">0</td>
+            <td id="ties">0</td>
+            <td id="playerLose">0</td>
+          </tr>
+        </table>
       </div>
-      <div>
-        Computer<br />
-        ComputerScore
+      <div class="gamingField">
+        <div>PlayerFigure</div>
+        <div>Result('< = >')</div>
+        <div>ComputerFigure</div>
       </div>
-      <div>
-        Tie<br />
-        TieScore
+      <div class="actionButtons">
+        <buttons id="Paper">Paper</buttons>
+        <buttons id="Rock">Rock</buttons>
+        <buttons id="Scissors">Scissors</buttons>
       </div>
     </div>
     <noscript>
