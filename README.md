@@ -2,7 +2,7 @@
 
 Игра камень-ножницы-бумага против МЕГА-МОЗГА(компуктера)
 
-[Play](www.link.com) (здесь будет github action)
+[Play](https://victhor-um.github.io/Rock-Paper-Scissors/)
 
 ### Правила
 
