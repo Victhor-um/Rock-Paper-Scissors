@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Rock-paper-scissors</title>
   </head>
@@ -12,7 +12,7 @@
     <div class="wrapper">
       <div class="title">
         <h1>Rock-paper-scissors</h1>
-        <button id="menu">Menu</button>
+        <!-- <button id="menu">Menu</button> -->
       </div>
       <div class="score">
         <table>
@@ -34,14 +34,13 @@
         </table>
       </div>
       <div class="gamingField">
-        <div>PlayerFigure</div>
-        <div>Result('< = >')</div>
-        <div>ComputerFigure</div>
+        <div></div>
+        <div></div>
       </div>
       <div class="selections">
         <buttons class="selection" data-selection="paper">✋</buttons>
         <buttons class="selection" data-selection="rock">✊</buttons>
-        <buttons class="selection" data-selection="scissors">✌️</buttons>
+        <buttons class="selection" data-selection="scissors">🖖</buttons>
       </div>
     </div>
     <noscript>
