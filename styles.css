@@ -27,13 +27,18 @@ table {
 }
 .gamingField {
   display: flex;
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
 }
 .gamingField > div {
   background-color: #fff;
   margin: 5px;
   padding: 10px;
-  font-size: 25px;
+  font-size: 4rem;
+  opacity: 0.5;
+}
+.gamingField > .winner {
+  opacity: 1;
+  font-size: 5.5rem;
 }
 .selections {
   display: flex;
@@ -44,9 +49,9 @@ table {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 5rem;
+  font-size: 7rem;
   transition: 125ms;
 }
 .selection:hover {
-  transform: scale(1.6);
+  transform: scale(1.4);
 }
